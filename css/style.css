@@ -223,6 +223,13 @@ footer{
         display: inline-block;
         margin-right: 8px;
     }
+
+    .menu-list ul li a{
+        display: inline-block;
+        text-decoration: none;
+        color: var(--primary-color-headlines);
+        transition: transform 0.5s ease-in-out, text-shadow 0.5s ease-in-out;
+    }
     .profile {
         display: grid;
         grid-template-columns: 1fr 2fr;
